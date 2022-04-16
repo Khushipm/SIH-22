@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+        <title>try1</title>
+        <style>
+            header{
+        padding: 60px;
+        background-image: url("images/back.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-width: 5px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.685);
+    
+    }
+    body{
+        padding:2px;
+        margin:2px;
+    }
+    header h1{
+        text-align: center;
+        color: brown;
+        font-family: 'Lobster Two', Arial Narrow, 'Lobster Two', ' sans-serif';
+        font-size: 60px;
+    }
+    nav{
+        background-color: #1C658C;
+        overflow: hidden; 
+        padding: 20px;
+    }
+    nav a{
+        color:antiquewhite;
+        font-family: 'Times New Roman', Times, serif;
+        padding:20px;
+    }
+    nav a:hover{
+        color: rgb(255, 166, 0);
+    }
+    
+    
+    footer{
+        background-color: rgba(0, 0, 0, 0.76);
+        padding:10px;
+        overflow: hidden; 
+    }
+    footer a{
+        color:antiquewhite;
+        font-family: 'Times New Roman', Times, serif;
+        float: left;
+        padding:10px;
+    }
+    footer a:hover{
+        color:rgb(233, 162, 69)
+    }
+    .abc{
+        display:flex;
+        flex-direction:row;
+        border:1px solid grey;
+
+    }
+    form{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin: 15px ;
+        font-size: 17px;
+        padding:8px 8px;
+        width:85%;
+        border:2px solid #1C658C;
+        margin-right: 200px;
+        margin-left:50px;
+        background-color: rgb(225, 226, 226);
+        box-shadow: 2px black;
+    }
+    input[type="text"],
+    input[type="number"],
+    input[type="password"],
+    input[type="email"],
+    input[type="date"],
+    select,textarea{
+        width:90%;
+        margin:10px;
+        margin-right: 10px;
+        padding:12px 20px 12px 20px;
+        border:1px solid lightgray;
+        border-radius: 4px;
+        align-items: center;
+    }
+    fieldset{
+        background-color: white;
+        border:1px solid lightgray;
+        border-radius: 4px;
+        width:92%
+    }
+    .image{
+        border:2px solid #0E185F;
+        align-items: center;
+        width:100%;
+    }
+    
+
+    .special1{
+        width:40%;
+        height:55%;
+        margin-left:30px;
+        margin-right:10px;
+        margin-top:10px;
+        border:1px solid grey;
+    }
+    .special2{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        flex-wrap: wrap;
+        height:40%;
+        padding:15px;
+        
+        text-justify: center;
+        padding-top:0px;
+        vertical-align: middle;
+        color:rgb(22, 70, 32);
+        font-family:Arial, Helvetica, sans-serif;
+        box-shadow: rgb(0, 0, 0) 2px;
+        font-weight: bolder;
+        
+        margin-bottom:15px;
+        margin-right:15px;
+    }
+    .heading{
+    background-color: #0E185F;
+    color:white;
+    padding:6px;
+    border-radius: 5px;
+    text-align: center;
+    width:98%;
+    
+
+    
+}
+    input[type="submit"]{
+        background-color: rgba(78, 143, 72, 0.904);
+        color:white;
+        text-align:center;
+        padding:15px 20px;
+        width:60%;
+        border:none;
+        border-radius: 4px;
+        cursor:grab;
+        align-self:center;
+        align-items: center;
+        margin-left:100px;
+    }
+    input[type="submit"]:hover{
+        background-color: rgb(46, 85, 45);
+}
+   .special4{
+       width:90%;
+   }
+    
+   
+    
+        </style>
+    </head>
+    
+    
+    <body>
+        <header>
+            <h1>Scholarship Portal</h1>
+        </header>
+        <div><b><nav>
+            <a href="#">HOME</a>
+            <a href="#">WIREFRAMES</a>
+            <a href="#">PROJECTS</a>
+            <a href="#">DOCUMENTS</a>
+            <a href="#">SIGN UP / LOGIN</a>
+        </nav></b>
+        </div >
+        <div class="abc">
+            <div class="special1">
+                <img  class=image src="study.jpg" width=100% alt="yourself"  width="100%">
+            </div>
+            <div class="special4">
+                <form action="" method="get" class="container">
+                    <div class="heading">
+                        <h1>Student Login</h1>
+                    </div>
+                    <div>
+                        <p>Username <input type="email" name="email" id="email"  required placeholder="example@gmail.com"></p>
+            
+                        <p>Password: <input type="password" name="password" id=password required placeholder="enter your password"></p>
+                        <input type="submit" value="SUBMIT" name="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Copyright 2020</a>
+            <a href="#">Report</a>
+        </footer>
+</body>
+</html>
